@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
     child: Builder(
       builder: (context) {
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Scheduler Demo',
           theme: ThemeData(
             primarySwatch: Colors.blue,
