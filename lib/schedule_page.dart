@@ -131,7 +131,7 @@ class _SchedulePageState extends State<SchedulePage> {
               shape:RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),),
               color: Colors.blue,
-              child: Text("Save",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,color: Colors.white),),
+              child: Text("Save",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),),
             )
           ],
         ),
